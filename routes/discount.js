@@ -26,7 +26,7 @@ router.get('/', function(req, res, next) {
       discount = 20;
     }
 
-    if (loyaltyCard == true) {
+    if (loyaltyCard == "true") {
       discount += 10;
     }
 
